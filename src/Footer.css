@@ -1,0 +1,47 @@
+
+ /* section footer  */
+   /* foteer background and layout  */
+   footer{
+    background-color: #f2f2f2;
+       display: grid;
+       grid-auto-columns: 1fr;
+   }
+   
+   /* center the copyright */
+   footer p {
+       text-align: center;
+   }
+
+   /* ul layout and center the items */
+   footer  ul{
+       display: flex;
+       justify-content:center;
+       margin: 0 auto;
+     
+   }
+  /* margin between icons  */
+   footer ul li {
+       margin:  1em;
+       list-style-type: none;
+   }
+
+   /* color to icon  */
+   footer ul li a{
+       color:black;
+   }
+   /* icons margin  */
+   footer ul{
+       margin-top: 1em;
+   }
+
+   /* footer .up  i{
+       width: 1.5em;
+       height: 1.5em;
+   } */
+   @media (max-width:426px) {
+       footer i{
+           font-size: 0.7em;
+       }
+   }
+
+/* section footer  */
